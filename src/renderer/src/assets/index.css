@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#main-container {
+  @apply bg-gray-200 h-screen 
+  w-screen overflow-hidden text-gray-900 transition-colors duration-700 ease-in-out;
+  &.active {
+    @apply bg-green-900 text-white;
+    .titlebar {
+      @apply fill-white;
+    }
+  }
+  .titlebar {
+    @apply fill-gray-800;
+  }
+
+}

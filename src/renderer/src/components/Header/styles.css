@@ -1,0 +1,12 @@
+.titlebar { 
+  @apply w-full bg-transparent px-2 py-1;
+  -webkit-user-select: none;
+  .dragger {
+  @apply cursor-pointer;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+  }
+  .report {
+    @apply cursor-pointer;
+  }
+}
